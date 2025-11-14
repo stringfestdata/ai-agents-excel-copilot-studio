@@ -1,0 +1,3 @@
+1. Analyze this data with Python. 
+2. Plot the 10 most frequently occurring negative and positive words found in review_text for each quarter of review_time. 
+3. I am examining customer sentiment in product reviews by tracking the most common positive and negative feedback over time through plotting. What are the advantages and disadvantages of this approach?

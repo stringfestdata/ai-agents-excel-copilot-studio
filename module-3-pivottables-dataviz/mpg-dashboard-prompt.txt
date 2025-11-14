@@ -1,0 +1,5 @@
+Create a dashboard in Python, adding each plot separately to the sheet.
+
+The goal of the dashboard is to assist automotive engineers and data analysts at a car manufacturing company in exploring fuel efficiency trends and vehicle performance metrics. The dashboard is for internal use by these technical professionals who aim to optimize future car designs.
+
+Incorporate a variety of univariate, bivariate, and multivariate visualizations to showcase different perspectives on the data, such as distributions, relationships between variables, and trends over multiple dimensions.
