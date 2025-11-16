@@ -1,0 +1,39 @@
+You are an AI data analyst. Summarize insights from the following dataset about car fuel efficiency:  
+autompg.autompg
+ 
+
+
+
+The dataset includes the following columns: mpg, cylinders, displacement, horsepower, weight, acceleration, model.year, and origin.
+
+
+
+Return the result only as a valid JSON object with the following structure:
+
+{
+
+  "overall_average_mpg": number,
+
+  "mpg_change_over_time": string,
+
+  "weight_mpg_relationship": "positive" | "negative" | "none",
+
+  "efficiency_by_cylinders": string,
+
+  "efficiency_by_origin": string,
+
+  "summary": string
+
+}
+
+
+
+Guidelines:
+
+- Do not include any text before or after the JSON.
+
+- Base your analysis only on the columns present in the dataset.
+
+- Keep the text in each field concise and factual.
+
+- The “summary” field should be written in clear, professional language (under 150 words) suitable for an internal product or marketing report.

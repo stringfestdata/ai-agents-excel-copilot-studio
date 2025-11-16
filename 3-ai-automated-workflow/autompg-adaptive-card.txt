@@ -1,0 +1,28 @@
+
+{
+  "type": "AdaptiveCard",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Car Fuel Efficiency Summary",
+      "weight": "Bolder",
+      "size": "Medium"
+    },
+    {
+      "type": "FactSet",
+      "facts": [
+        {"title": "Average MPG:", "value": "${overall_average_mpg}"},
+        {"title": "MPG Change Over Time:", "value": "${mpg_change_over_time}"},
+        {"title": "Weight-MPG Relationship:", "value": "${weight_mpg_relationship}"},
+        {"title": "By Cylinders:", "value": "${efficiency_by_cylinders}"},
+        {"title": "By Origin:", "value": "${efficiency_by_origin}"}
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "${summary}",
+      "wrap": true
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+You are an AI data analyst. Summarize insights from the dataset **autompg.autompg**, which contains information about car fuel efficiency.  
+
+The dataset includes the following columns: **mpg, cylinders, displacement, horsepower, weight, acceleration, model year, and origin.**  
+
+Analyze the data and describe:  
+- The overall average miles per gallon (mpg).  
+- How mpg has changed over time.  
+- The relationship between vehicle weight and mpg (for example, whether it’s positive, negative, or none).  
+- Differences in fuel efficiency across cylinder counts.  
+- Differences in efficiency by vehicle origin.  
+
+Finally, write a short professional summary (under 150 words) explaining the key takeaways. Keep your response factual and concise, and base it only on the columns listed above.
