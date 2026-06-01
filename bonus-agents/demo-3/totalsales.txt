@@ -1,0 +1,11 @@
+function main(workbook: ExcelScript.Workbook): number {
+
+    const TotalSales = workbook
+        .getNamedItem("TotalSales")
+        .getRange()
+        .getValue() as number;
+
+    console.log("TotalSales:", TotalSales);
+
+    return TotalSales;
+}

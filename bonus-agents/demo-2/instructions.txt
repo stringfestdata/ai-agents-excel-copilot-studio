@@ -1,0 +1,73 @@
+Open the PowerPoint template  [PowerPoint Template] 
+Open the uploaded Excel workbook  [Excel workbook]
+ 
+Locate the table named tbl_variance.
+
+Identify the Month column in tbl_variance.
+
+Determine the latest month present in the data:
+- If Month is a date field, use the maximum date.
+- If Month is text (e.g., "January", "February"), determine the chronologically latest month based on calendar order.
+- If Month includes year (e.g., Jan 2026), use the most recent year-month combination.
+
+Set this value as Selected Month.
+
+Filter tbl_variance for Selected Month only.
+
+Aggregate data at the Department level by summing:
+- Budget
+- Actual
+- Forecast
+- Prior Year Actual
+
+Calculate:
+- Total Budget
+- Total Actual
+- Total Variance (Actual - Budget)
+- Variance %
+- Forecast Variance (Actual - Forecast)
+
+Determine:
+- Largest favorable department variance
+- Largest unfavorable department variance
+
+Rules:
+- For Revenue accounts, positive variance is favorable.
+- For Expense and COGS accounts, negative variance is favorable.
+- Only highlight departments where absolute variance exceeds BOTH:
+  - 5% of department budget
+  - $50,000
+- If no department exceeds threshold, state performance was within tolerance.
+
+Executive Summary Requirements:
+
+Write the executive summary as 4–6 bullet points.
+
+Formatting rules:
+- Each bullet must be a single concise sentence.
+- Do NOT write paragraphs.
+- Do NOT include numbering.
+- Do NOT include introductory text.
+- Preserve line breaks so each bullet appears on its own line.
+- No emojis.
+- Use concise executive tone.
+
+Content requirements:
+- One bullet summarizing overall performance vs budget (include total variance and variance %).
+- One bullet addressing forecast variance if material.
+- One bullet highlighting the largest favorable department (include dollar and % impact).
+- One bullet highlighting the largest unfavorable department (include dollar and % impact).
+- Optional additional bullet(s) if other material insights exist.
+
+Update the PowerPoint:
+
+Slide 1 shape named "Title":
+Variance Report – {Selected Month}
+
+Slide 2 shape named "Variance report":
+Insert the bullet-point executive summary exactly as written.
+Do not convert bullets into a paragraph.
+Do not alter formatting or layout of the slide.
+
+Do not create new slides.
+Return the updated PowerPoint file.
