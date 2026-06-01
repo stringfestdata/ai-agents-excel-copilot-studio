@@ -1,0 +1,27 @@
+{
+  "type": "AdaptiveCard",
+  "version": "1.5",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Sales Flash Report",
+      "weight": "Bolder",
+      "size": "Large"
+    },
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+          "title": "Total Sales:",
+          "value": "@{formatNumber(float(coalesce(outputs('Run_a_prompt')?['body/responsev2/predictionOutput/structuredOutput/TotalSales'], 0)), 'C2', 'en-US')}"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "@{outputs('Run_a_prompt')?['body/responsev2/predictionOutput/structuredOutput/Commentary']}",
+      "wrap": true,
+      "spacing": "Medium"
+    }
+  ]
+}
