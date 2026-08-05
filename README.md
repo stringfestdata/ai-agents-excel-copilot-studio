@@ -1,2 +1,2 @@
 # ai-agents-excel-copilot-studio
-OLT AI Agents in Excel and Copilot Studio  
+OLT Copilot Agents for Excel: Edit with Copilot & Declarative Agents  
